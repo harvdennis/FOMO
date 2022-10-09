@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --background: #e7e7e7;
+  --mainColour: #6C2B91;
+  --mainBg: #8B45B2;
+  --panelText: #B58DCC;
+  --panel: white;
+  --basicText: black;
+  --calendartoday: #eaf6ff;
+  --calendarHeader: #6c2b91;
+  --rowShadow: black;
+  --buttonBg: #e6e6e6;
+  --icon: brightness(0) saturate(100%) invert(18%) sepia(61%) saturate(2441%) hue-rotate(262deg) brightness(98%) contrast(93%);
+  /* --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple; */
+}
+
+[data-theme="lime"] {
+  --background: #e7e7e7;
+  --mainColour: #2B9134;
+  --mainBg: #62CB30;
+  --panelText: #90cc8d;
+  --panel: white;
+  --basicText: black;
+  --calendartoday: #eaf6ff;
+  --calendarHeader: #2B9134;
+  --rowShadow: black;
+  --buttonBg: #e6e6e6;
+  --icon: brightness(0) saturate(100%) invert(46%) sepia(25%) saturate(1332%) hue-rotate(75deg) brightness(93%) contrast(88%);
+}
+
+[data-theme="dark"] {
+  --background: #121212;
+  --mainColour: #6C2B91;
+  --mainBg: #8B45B2;
+  --panelText: #B58DCC;
+  --panel: #2f2f2f;
+  --basicText: white;
+  --calendartoday: #485057;
+  --calendarHeader: #ca75fa;
+  --rowShadow: white;
+  --buttonBg: #545454;
+  --icon: brightness(0) saturate(100%) invert(20%) sepia(50%) saturate(2930%) hue-rotate(262deg) brightness(90%) contrast(93%);
+  /* --text-primary: white;
+  --text-secondary: grey;s
+  --accent: darkred; */
+}
+
+[data-theme="twilight"] {
+  --background: #121212;
+  --mainColour: #DF8E18;
+  --mainBg: #C48927;
+  --panelText: #ccb48d;
+  --panel: #2f2f2f;
+  --basicText: white;
+  --calendartoday: #485057;
+  --calendarHeader: #f1b760;
+  --rowShadow: white;
+  --buttonBg: #545454;
+  --icon: brightness(0) saturate(100%) invert(71%) sepia(26%) saturate(3378%) hue-rotate(348deg) brightness(89%) contrast(95%);
+}

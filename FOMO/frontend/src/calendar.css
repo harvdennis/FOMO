@@ -1,0 +1,125 @@
+
+.rbc-event.rbc-selected, .rbc-day-slot .rbc-selected.rbc-background-event{
+    background-color: #4f2a64;
+}
+
+.rbc-current-time-indicator{
+    background-color: orangered;
+    height: 2px;
+}
+
+.rbc-timeslot-group{
+    border-bottom: #6c2b916e;
+}
+
+.rbc-time-content{
+    border-top: solid 1px #6c2b916e;
+}
+
+.rbc-time-content > * + * > *{
+    border-left: solid 1px #6c2b916e;
+}
+
+.rbc-day-bg + .rbc-day-bg{
+    border-left: solid 1px #6c2b916e;
+}
+
+.rbc-header + .rbc-header{
+    border-left: solid 1px #6c2b916e; 
+    color: var(--calendarHeader);  
+}
+
+.rbc-month-view{
+    border: solid 1px #6c2b916e;   
+}
+
+.rbc-time-view{
+    border: solid 1px #6c2b916e;
+}
+
+.rbc-month-row + .rbc-month-row{
+    border-top: solid 1px #6c2b916e;
+}
+
+.rbc-time-header.rbc-overflowing{
+    border-right: solid 1px #6c2b916e;
+}
+
+.rbc-time-header-content{
+    border-left: solid 1px #6c2b916e;
+}
+
+.rbc-day-slot .rbc-time-slot{
+    border-top: solid 1px #6c2b9121;
+}
+
+.rbc-date-cell{
+    color: var(--calendarHeader);
+}
+
+.rbc-toolbar-label{
+    color: var(--calendarHeader);
+}
+
+.rbc-btn-group button{
+    color: var(--calendarHeader);
+}
+
+.rbc-label{
+    color: var(--calendarHeader);
+}
+
+.rbc-header{
+    color: var(--calendarHeader);
+}
+
+.rbc-today{
+    background-color: var(--calendartoday);
+}
+
+#cal_popup{
+    padding: 10px;
+    position: absolute;
+    display: block;
+    text-align: center;
+    z-index: 5;
+    min-height: 200px;
+    width: 200px;
+    background-color: #856995cc;
+    border-radius: 10px;
+}
+
+.extra-info{
+    width: inherit;
+    text-align: left;
+    margin: 10px;
+}
+
+#cal_popup p{
+    color: white;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+#cal_popup input{
+    color: white;
+    background-color: #4f2a6400;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin: 10px auto auto auto;
+}
+
+.calHeader{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rbc-toolbar button.rbc-active {
+    background-color: var(--buttonBg);
+}
+
+.rbc-off-range-bg {
+    background-color: var(--buttonBg);
+}

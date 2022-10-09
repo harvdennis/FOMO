@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "courseRanking": 2,
+        "courseName": "COMP10120",
+        "difficultyRating": 4.1,
+        "credits": 10
+    },
+    {
+        "id": 2,
+        "courseRanking": 1,
+        "courseName": "COMP12111",
+        "difficultyRating": 4.7,
+        "credits": 10
+    },
+    {
+        "id": 3,
+        "courseRanking": 3,
+        "courseName": "COMP16321",
+        "difficultyRating": 2.5,
+        "credits": 15
+    }
+
+]
