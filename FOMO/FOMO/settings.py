@@ -82,8 +82,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': '2021_comp10120_x16',
         'HOST': 'dbhost.cs.man.ac.uk',
-        'USER': 'y78202oa',
-        'PASSWORD': 'dev123456'
+        'USER': '',
+        'PASSWORD': ''
     }
 }
 
