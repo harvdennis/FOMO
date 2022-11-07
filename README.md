@@ -1,7 +1,7 @@
 # FOMO
 Automatic revision scheduler for UOM compsci students.
 
-Unfortunately, due to limited access to the University hosted database this project only workes on UOM networks. You can view the fronted-end design [here](https://uom-fomo.netlify.app/), however the web app's core functionality can only be used when run locally.
+Unfortunately, due to limited access to the University hosted database this project only works on UOM networks. You can view the fronted-end design [here](https://uom-fomo.netlify.app/), however the web app's core functionality can only be used when run locally and on a University of Manchester network.
 
 [Slides presentation](https://docs.google.com/presentation/d/1rpAmsmHv7U4AIyzVypDGQlcEzZpw2bW6YSVPqT7NSrw/edit?usp=sharing)
 
